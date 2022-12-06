@@ -37,6 +37,7 @@ session_start();
             <a class="meu" href="#About">About</a>
             <a class="meu" href="#Menu">Menu</a>
             <a class="meu" href="#Gallery">Gallery</a>
+            <a class="meu" class="cart" href="">Cart</a>
             <a class="meu" href="#Contact Us">Contact Us</a>
             <a class="meu" href="logout.php">Sign Out</a>
         </nav>
@@ -82,7 +83,7 @@ session_start();
                             <h2>Bugger</h2>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, repellat.</p>
                             <h3>Sh 2000</h3>
-                            <a href="" class="menu-btn">Order now</a>
+                            <button class="menu-btn">Order now</button>
                         </div>
                     </div>
                     <div class="menu-card">
@@ -246,6 +247,8 @@ session_start();
 
 
     </script>
+
+<script src="main.js"></script>
 
 
 
